@@ -71,3 +71,14 @@ The tools aren't interchangeable. They solve different problems.
 
 And once you get that, both become way more useful.
 
+
+**Agent Skills vs Subagents: Key Differences Take away**
+
+| Feature | Skills | Subagents |
+|---------|-------------|-----------|
+| Core Concept | A toolbox of knowledge and scripts. | A specialized expert with their own office. |
+| Context | Shared with your main conversation (progressive loading). | Isolated. Starts with a clean context window. |
+| Invocation | Automatic. Claude chooses to use them when relevant. | Delegated. The main agent or user explicitly spawns them. |
+| Parallelism | Sequential (one tool at a time). | Parallel. Can run multiple subagents at once. |
+| Scope | Works across Claude.ai, API, and Claude Code. | Primarily a Claude Code (CLI) and Agent SDK feature. |
+| Best For | On-demand knowledge, specific tools (Excel, PDF). | Complex, multi-step tasks (e.g., "Review all files"). |
